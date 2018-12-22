@@ -93,7 +93,7 @@ function update(source) {
 
   nodeEnter
     .append("svg:a")
-      .attr("xlink:href", function(d){return "http://en.m.wikipedia.org/wiki/"+d.url;})
+      .attr("xlink:href", function(d){return "https://en.m.wikipedia.org/wiki/"+d.url;})
       .attr("target", "right_frame")
     .append("text")
       .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
