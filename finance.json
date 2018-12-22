@@ -1,17 +1,17 @@
 {
-  "name": "金融业",
+  "name": "金融业", "url": "Financial_services",
   "children": [
     {
-      "name": "货币金融服务",
+      "name": "货币金融服务", "url": "Money_market",
       "children": [
-        { "name": "中央银行服务" },
+        { "name": "中央银行服务" , "url": "Central_bank"},
         {
-          "name": "货币银行服务",
+          "name": "货币银行服务", "url": "Bank",
           "children": [
-            { "name": "商业银行服务" },
-            { "name": "政策性银行服务" },
-            { "name": "信用合作社服务" },
-            { "name": "农村资金互助社服务" },
+            { "name": "商业银行服务", "url": "Commercial_bank" },
+            { "name": "政策性银行服务", "url": "Policy_bank" },
+            { "name": "信用合作社服务", "url": "Credit_union" },
+            { "name": "农村资金互助社服务", "url": "Rural_credit_cooperative" },
             { "name": "其他货币银行服务" }
           ]
         },
@@ -33,26 +33,26 @@
       ]
     },
     {
-      "name": "资本市场服务",
+      "name": "资本市场服务", "url": "Capital_market",
       "children": [
         {
-          "name": "证券市场服务",
+          "name": "证券市场服务", "url" : "Securities_market",
           "children": [
             { "name": "证券市场管理服务" },
             { "name": "证券经纪交易服务" }
           ]
         },
-        { "name": "公开募集证券投资基金" },
+        { "name": "公开募集证券投资基金", "url": "investment_fund" },
         {
-          "name": "非公开募集证券投资基金",
+          "name": "非公开募集证券投资基金", "url": "Private_equity",
           "children": [
-            { "name": "创业投资基金" },
-            { "name": "天使投资" },
+            { "name": "创业投资基金", "url": "Venture_capital" },
+            { "name": "天使投资", "url": "Angel_investor" },
             { "name": "其他非公开募集证券投资基金" }
           ]
         },
         {
-          "name": "期货市场服务",
+          "name": "期货市场服务", "url": "Futures_exchange",
           "children": [
             { "name": "期货市场管理服务" },
             { "name": "其他期货市场服务" }
@@ -64,10 +64,10 @@
       ]
     },
     {
-      "name": "保险业",
+      "name": "保险业", "url": "Insurance",
       "children": [
         {
-          "name": "人身保险",
+          "name": "人身保险", "url": "Life_insurance",
           "children": [
             { "name": "人寿保险" },
             { "name": "年金保险" },
@@ -75,7 +75,7 @@
             { "name": "意外伤害保险" }
           ]
         },
-        { "name": "财产保险" },
+        { "name": "财产保险", "url": "Property_insurance" },
         { "name": "再保险" },
         { "name": "商业养老金" },
         {
@@ -95,7 +95,7 @@
       "name": "其他金融业",
       "children": [
         {
-          "name": "金融信托与管理服务",
+          "name": "金融信托与管理服务", "url": "Trust_company",
           "children": [
             { "name": "信托公司" },
             { "name": "其他金融信托与管理服务" }
